@@ -31,6 +31,5 @@ export default {
   border-top-style: solid;
   border-width: 6px;
   border-color: #007bff;
-  overflow: auto;
 }
 </style>

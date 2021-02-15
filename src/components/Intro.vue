@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-sm mr-1 justify-content-left">
+    <div class="d-flex flex-wrap align-items-center">
+      <div class="col-sm mr-1 mb-1 justify-content-left">
         <img
           :src="profile"
           class="illustration"
           alt="Illustration of me working"
         />
       </div>
-      <div class="col-sm mt-1">
-        <h4 class="info text-primary">
+      <div class="col-sm mt-3">
+        <h4 class="info mt-2 text-primary">
           Hello there! <span class="wave">👋</span>
         </h4>
         <p class="info mr-4">
@@ -23,10 +23,10 @@
     <br />
     <h4 class="align-items-center text-primary" id="work">Work 🧑🏻‍💻</h4>
     <ul>
-      <li class="row mt-4 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
           <h5>Oracle ⭕</h5>
-          <h6>Technical Product Manager</h6>
+          <h6 class="text-muted">Technical Product Manager</h6>
           <a
             class="btn btn-warning btn-sm"
             :href="oracle"
@@ -45,10 +45,10 @@
           </ul>
         </div>
       </li>
-      <li class="row mt-3 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
           <h5>American Express 💳</h5>
-          <h6>Software Engineering Intern</h6>
+          <h6 class="text-muted">Software Engineering Intern</h6>
           <a
             class="btn btn-warning btn-sm"
             :href="amex"
@@ -73,10 +73,10 @@
           </ul>
         </div>
       </li>
-      <li class="row mt-3 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
           <h5>Barchart 📈</h5>
-          <h6>Data Engineering Intern</h6>
+          <h6 class="text-muted">Data Engineering Intern</h6>
           <a
             class="btn btn-warning btn-sm"
             target="_blank"
@@ -109,7 +109,7 @@
       Projects 👾
     </h4>
     <ul>
-      <li class="row mt-4 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
           <h5>USustain 🥘</h5>
           <a
@@ -137,7 +137,7 @@
           >
         </div>
       </li>
-      <li class="row mt-5 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
           <h5>Auxy 🎒</h5>
           <a
@@ -171,38 +171,38 @@
     <br />
     <h4 class="align-items-center text-primary" id="skills">Skills 🧑🏻‍💻</h4>
     <ul>
-      <li class="row mt-4 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-3">
         <div class="col-sm">
-          <h6>Languages 🐱‍💻</h6>
+          <h5>Languages 🐱‍💻</h5>
         </div>
         <div class="col-sm">
-          <p class="info">Python, Java, C/C++, HTML5/CSS3, Javascript</p>
+          <p class="info text-muted">
+            Python, Java, C/C++, HTML5/CSS3, Javascript
+          </p>
         </div>
       </li>
-      <li class="row mt-1 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-3">
         <div class="col-sm">
-          <h6>Libraries/Frameworks 📚</h6>
+          <h5>Libraries/Frameworks 📚</h5>
         </div>
         <div class="col-sm">
-          <p class="info">
+          <p class="info text-muted">
             Web (Vue.js, Node.js, Bootstrap), Data (numpy, pandas, scikit-learn,
             plotly, matplotlib)
           </p>
         </div>
       </li>
-      <li class="row mt-1 align-items-center d-flex flex-wrap">
+      <li class="d-flex align-items-center flex-wrap mt-3">
         <div class="col-sm">
-          <h6>Databases</h6>
+          <h5>Databases 💾</h5>
         </div>
         <div class="col-sm">
-          <p class="info">
+          <p class="info text-muted">
             SQL (MySQL, PostgreSQL, Oracle), NoSQL (MongoDB, Redis)
           </p>
         </div>
       </li>
     </ul>
-    <br />
-    <hr />
     <br />
   </div>
 </template>
@@ -212,7 +212,7 @@ export default {
   name: "Intro",
   data() {
     return {
-      profile: require("@/assets/images/de.png"),
+      profile: require("@/assets/images/intro.png"),
       de: require("@/assets/images/de.png"),
       swe: require("@/assets/images/swe.png"),
       pm: require("@/assets/images/pm.png"),
@@ -244,8 +244,8 @@ export default {
 }
 
 .illustration {
-  height: 250px;
-  width: 280px;
+  height: 200px;
+  width: 400px;
 }
 
 @keyframes wave-animation {
