@@ -1,17 +1,17 @@
 <template>
   <div class="container">
     <div class="d-flex flex-wrap align-items-center">
-      <div class="col-sm mr-1 mb-1 justify-content-left">
+      <div class="col-sm mr-1 justify-content-left">
         <img
           :src="profile"
           class="illustration"
           alt="Illustration of me working"
         />
       </div>
-      <div class="col-sm mt-3">
-        <h4 class="info mt-3 text-primary">
+      <div class="col-sm mt-4">
+        <h3 class="info text-primary">
           Hello there! <span class="wave">👋</span>
-        </h4>
+        </h3>
         <p class="info mr-4">
           I'm Ritwik, a Chicago based design enthusiast 🎨 and technical product
           manager working on AL/ML 🧠 products at Oracle.
@@ -129,7 +129,7 @@
             plummet. USustain is a crowd funding tool to help students pay for
             their meals to support themselves through college.
           </p>
-          <span class="badge badge-pill badge-primary mr-2">
+          <span class="badge badge-pill badge-light mr-2">
             <strong>Project Type: Hackathon</strong></span
           >
           <span class="badge badge-pill badge-secondary">
@@ -157,7 +157,7 @@
             the universities focus on academically struggling students and boost
             retention by guiding them with to campus resources.
           </p>
-          <span class="badge badge-pill badge-primary mr-2">
+          <span class="badge badge-pill badge-light mr-2">
             <strong>Project Type: Startup</strong></span
           >
           <span class="badge badge-pill badge-secondary">
@@ -213,7 +213,7 @@ export default {
   name: "Intro",
   data() {
     return {
-      profile: require("@/assets/images/intro.png"),
+      profile: require("@/assets/images/relax.png"),
       de: require("@/assets/images/de.png"),
       swe: require("@/assets/images/swe.png"),
       pm: require("@/assets/images/pm.png"),
@@ -245,8 +245,8 @@ export default {
 }
 
 .illustration {
-  height: 200px;
-  width: 400px;
+  height: 220px;
+  width: 280px;
 }
 
 hr {
