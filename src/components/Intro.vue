@@ -9,7 +9,7 @@
         />
       </div>
       <div class="col-sm mt-3">
-        <h4 class="info mt-2 text-primary">
+        <h4 class="info mt-3 text-primary">
           Hello there! <span class="wave">👋</span>
         </h4>
         <p class="info mr-4">
@@ -23,7 +23,7 @@
     <br />
     <h4 class="align-items-center text-primary" id="work">Work 🧑🏻‍💻</h4>
     <ul>
-      <li class="d-flex align-items-center flex-wrap mt-4">
+      <li class="d-flex align-items-center flex-wrap mt-5">
         <div class="col col-4">
           <h5>Oracle ⭕</h5>
           <h6 class="text-muted">Technical Product Manager</h6>
@@ -45,7 +45,7 @@
           </ul>
         </div>
       </li>
-      <li class="d-flex align-items-center flex-wrap mt-4">
+      <li class="d-flex align-items-center flex-wrap mt-5">
         <div class="col col-4">
           <h5>American Express 💳</h5>
           <h6 class="text-muted">Software Engineering Intern</h6>
@@ -73,7 +73,7 @@
           </ul>
         </div>
       </li>
-      <li class="d-flex align-items-center flex-wrap mt-4">
+      <li class="d-flex align-items-center flex-wrap mt-5">
         <div class="col col-4">
           <h5>Barchart 📈</h5>
           <h6 class="text-muted">Data Engineering Intern</h6>
@@ -109,7 +109,7 @@
       Projects 👾
     </h4>
     <ul>
-      <li class="d-flex align-items-center flex-wrap mt-4">
+      <li class="d-flex align-items-center flex-wrap mt-5">
         <div class="col col-4">
           <h5>USustain 🥘</h5>
           <a
@@ -137,7 +137,7 @@
           >
         </div>
       </li>
-      <li class="d-flex align-items-center flex-wrap mt-4">
+      <li class="mt-5 d-flex align-items-center flex-wrap">
         <div class="col col-4">
           <h5>Auxy 🎒</h5>
           <a
@@ -204,6 +204,7 @@
       </li>
     </ul>
     <br />
+    <br />
   </div>
 </template>
 
@@ -246,6 +247,10 @@ export default {
 .illustration {
   height: 200px;
   width: 400px;
+}
+
+hr {
+  width: 30%;
 }
 
 @keyframes wave-animation {
