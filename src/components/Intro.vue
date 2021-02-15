@@ -106,7 +106,7 @@
     <hr />
     <br />
     <h4 class="align-items-center text-primary mb-2" id="projects">
-      Projects 👾
+      Projects 🔥
     </h4>
     <ul>
       <li class="d-flex align-items-center flex-wrap mt-4">
@@ -172,7 +172,7 @@
     <h4 class="align-items-center text-primary" id="skills">Skills 💬</h4>
     <ul>
       <li class="d-flex align-items-center flex-wrap mt-4">
-        <div class="col-sm">
+        <div class="col-sm skill">
           <h5>Languages 💻</h5>
         </div>
         <div class="col-sm">
@@ -182,7 +182,7 @@
         </div>
       </li>
       <li class="d-flex align-items-center flex-wrap mt-3">
-        <div class="col-sm">
+        <div class="col-sm skill">
           <h5>Libraries/Frameworks 📚</h5>
         </div>
         <div class="col-sm">
@@ -193,7 +193,7 @@
         </div>
       </li>
       <li class="d-flex align-items-center flex-wrap mt-3">
-        <div class="col-sm">
+        <div class="col-sm skill">
           <h5>Databases <span>💾</span></h5>
         </div>
         <div class="col-sm">
