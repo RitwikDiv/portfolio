@@ -23,7 +23,7 @@
     <br />
     <h4 class="align-items-center text-primary" id="work">Work 🧑🏻‍💻</h4>
     <ul>
-      <li class="d-flex align-items-center flex-wrap mt-5">
+      <li class="d-flex align-items-center flex-wrap mt-3">
         <div class="col col-4">
           <h5>Oracle ⭕</h5>
           <h6 class="text-muted">Technical Product Manager</h6>
@@ -109,7 +109,7 @@
       Projects 👾
     </h4>
     <ul>
-      <li class="d-flex align-items-center flex-wrap mt-5">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
           <h5>USustain 🥘</h5>
           <a
@@ -169,11 +169,11 @@
     <br />
     <hr />
     <br />
-    <h4 class="align-items-center text-primary" id="skills">Skills 🧑🏻‍💻</h4>
+    <h4 class="align-items-center text-primary" id="skills">Skills 💬</h4>
     <ul>
-      <li class="d-flex align-items-center flex-wrap mt-3">
+      <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col-sm">
-          <h5>Languages 🐱‍💻</h5>
+          <h5>Languages 💻</h5>
         </div>
         <div class="col-sm">
           <p class="info text-muted">
@@ -194,7 +194,7 @@
       </li>
       <li class="d-flex align-items-center flex-wrap mt-3">
         <div class="col-sm">
-          <h5>Databases 💾</h5>
+          <h5>Databases <span>💾</span></h5>
         </div>
         <div class="col-sm">
           <p class="info text-muted">
