@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm mt-4">
         <h3 class="info text-primary">
-          Hello there! <span class="wave">👋</span>
+          Hello there! <span class="wave">👋🏽</span>
         </h3>
         <p class="info mr-4">
           I'm Ritwik, a Chicago based design enthusiast 🎨 and technical product
