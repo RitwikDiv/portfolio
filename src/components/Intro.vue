@@ -111,6 +111,33 @@
     <ul>
       <li class="d-flex align-items-center flex-wrap mt-4">
         <div class="col col-4">
+          <h5>MakePals 🥰</h5>
+          <a
+            class="btn btn-success btn-sm"
+            href="https://github.com/RitwikDiv/makepals"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          </a>
+        </div>
+        <div class="col-8 info">
+          <p class="info">
+            MakePals is an online community where you can create rooms to meet
+            people and talk about things you love. Its truly as simple as that!
+            Creating a room leads to your own discord text/voice channel which
+            is advertised to everyone who opens makepals.
+          </p>
+          <span class="badge badge-pill badge-light mr-2">
+            <strong>Project Type: Personal</strong></span
+          >
+          <span class="badge badge-pill badge-secondary">
+            <strong>Contribution: PM, Backend, UI/UX, Frontend</strong></span
+          >
+        </div>
+      </li>
+      <li class="d-flex align-items-center flex-wrap mt-4">
+        <div class="col col-4">
           <h5>USustain 🥘</h5>
           <a
             class="btn btn-success btn-sm"
